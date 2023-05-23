@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+.texto {
+    text-align: center;
+    color:purple;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.texto h1 {
+    padding: 20px;
+    font-weight: bold;
+    color:purple;
+}
+
+.imagem {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding: 15px;
+}
+
+img {
+    height: 500px;
+    width: 550px;
+
+    animation-name: bombear;
+    animation-iteration-count: infinite;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+}
+
+@keyframes bombear {
+    from {
+        opacity: 100%;
+        height: 500px;
+        width: 550px;
+      }
+    
+    to {
+        opacity: 20%;
+        height: 410px;
+       width: 460px;
+     }
+}
